@@ -55,4 +55,14 @@
 		flex-grow: 0;
 		width: 90%;
 	}
+
+	.curid {
+		flex-grow: 1;
+		
+		a.sidebar-nav-item {
+			margin: 0;
+			margin-inline-start: -.75rem;
+			width: auto;
+		}
+	}
 }
