@@ -23,6 +23,10 @@
 			inline text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white
 		;
 	}
+	
+	svg {
+		@apply dark:fill-gray-600;
+	}
 }
 
 .page-tool-btn svg {
