@@ -11,3 +11,11 @@
 		size: A4;
 	}
 }
+
+.os-macos .\[\.os-macos_\&\]\:block {
+	display: block;
+}
+
+.not-\[\.os-macos_\&\]\:block:not(.os-macos *){
+	display:block;
+}
