@@ -15,6 +15,7 @@ The following plugins are supported:
   * [move](https://www.dokuwiki.org/plugin%3Amove)
   * [diagrams](https://www.dokuwiki.org/plugin%3Adiagrams)
   * [imagebox](https://www.dokuwiki.org/plugin%3Aimagebox)
+  * [copy2clipboard](https://www.dokuwiki.org/plugin%3Acopy2clipboard)
 
 I am open to merge requests for changes like for the support of additional plugins.
 
