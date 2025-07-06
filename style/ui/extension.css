@@ -189,3 +189,13 @@
 		display: grid;
 	}
 }
+
+#extension__manager {
+	.panelHeader {
+		@apply mb-6;
+	}
+
+	form.install input[name=overwrite] {
+		display: inline-block;
+	}
+}
