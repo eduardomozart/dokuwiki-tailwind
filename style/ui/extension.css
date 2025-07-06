@@ -61,8 +61,8 @@
 			margin-block-start: 0;
 
 			.version {
-				@apply text-sm;
-				padding-top: .5em;
+				@apply text-base;
+				padding-top: .25em;
 				white-space: nowrap;
 			}
 		}
