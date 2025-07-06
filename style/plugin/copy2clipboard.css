@@ -5,11 +5,19 @@
 #dw-content {
 	.cp2clipcont {
 		position: relative;
+
+		&.desktop button {
+			visibility: hidden;
+		}
+		
+		&.desktop:hover button {
+			visibility: visible;
+		}
 	}
 
 	dl.code dd:has(.cp2clipcont),
 	dl.file dd:has(.cp2clipcont) {
-		button {
+		& button {
 			position: absolute;
 			right: 0;
 			top: 0;
