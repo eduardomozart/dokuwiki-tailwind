@@ -2,6 +2,10 @@
  * Styles for https://www.dokuwiki.org/plugin:acmenu
  */
 
+body > div.w-full.lg\:flex > aside > div > div > div:nth-child(4) {
+	display: block;
+}
+
 .dokuwiki-sidebar > div.acmenu {
 	> ul.sidebar-nav-list > li.open {
 		padding: 0 !important;
