@@ -43,6 +43,7 @@ body > div.w-full.lg\:flex > aside > div > div > div:nth-child(4) {
 		background-repeat: no-repeat;
 		transform: rotateZ(180deg);
 		transition: 0.2s all ease-in-out;
+		cursor: pointer;
 	}
 
 	li.closed:has(.sidebar-nav-list) > div.li::after {

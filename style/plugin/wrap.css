@@ -218,6 +218,10 @@
 		em {
 			@apply not-italic;
 		}
+
+		a {
+			@apply font-medium underline;
+		}
 	}
 
 	// notes without icons
