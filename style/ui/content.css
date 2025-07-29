@@ -38,6 +38,11 @@
 		@apply font-semibold;
 	}
 
+	// Code
+	.code .ln-xtra {
+		@apply bg-yellow-900;
+	}
+
 	// Images
 	.media, .mediaright, .medialeft, .mediacenter {
 		@apply inline m-0 h-[revert-layer];
