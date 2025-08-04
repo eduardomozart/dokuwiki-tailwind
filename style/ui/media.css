@@ -679,10 +679,6 @@
 					@apply border-b;
 				}
 
-				> *:not(.detail) {
-					@apply py-3;
-				}
-
 				// image preview
 				.detail {
 					@apply -order-1 py-2 mr-2;
