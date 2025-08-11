@@ -618,7 +618,7 @@
 		}
 
 		.mediamanager-aside {
-			@apply p-4 fixed w-1/4 h-full top-0 left-0 overflow-y-auto border-r box-b;
+			@apply p-4 fixed w-1/4 h-full left-0 overflow-y-auto border-r box-b;
 
 			.media-opts {
 				@apply mb-4 pb-4 border-b box-b;
