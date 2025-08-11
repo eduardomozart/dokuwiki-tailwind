@@ -635,7 +635,7 @@
 
 		// Right-side content
 		.mediamanager-content {
-			@apply p-4 fixed w-3/4 h-full top-0 right-0 overflow-y-auto;
+			@apply p-4 fixed w-3/4 h-full right-0 overflow-y-auto;
 
 			// Upload text
 			.upload {
