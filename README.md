@@ -16,6 +16,7 @@ The following plugins are supported:
   * [diagrams](https://www.dokuwiki.org/plugin%3Adiagrams)
   * [imagebox](https://www.dokuwiki.org/plugin%3Aimagebox)
   * [acmenu](https://www.dokuwiki.org/plugin%3Aacmenu)
+  * [include](https://www.dokuwiki.org/plugin%3Ainclude)
 
 I am open to merge requests for changes like for the support of additional plugins.
 
