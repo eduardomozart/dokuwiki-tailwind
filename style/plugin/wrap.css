@@ -375,4 +375,14 @@
 	.plugin_wrap.tabs {
 		@apply mb-6;
 	}
+
+	// groups
+	.group:after {
+		clear: both;
+	}
+
+	.group:before, .group:after {
+		content: "";
+		display: table;
+	}
 }
