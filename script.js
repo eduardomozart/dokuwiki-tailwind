@@ -1,4 +1,4 @@
-/* DOKUWIKI:include_once js/plugin/copy2clipboard.js */
+/* DOKUWIKI:include_once js/search.js */
 
 if(JSINFO.ACT === 'edit' || JSINFO.ACT === 'preview') {
     /* DOKUWIKI:include_once js/toolbar.js */
