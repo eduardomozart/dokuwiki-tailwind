@@ -101,7 +101,7 @@
 		@apply prose-table;
 
 		input[type="text"], input[type="password"], input[type="email"], select, textarea {
-			@apply w-full text-sm;
+			@apply !w-full text-sm;
 		}
 	}
 

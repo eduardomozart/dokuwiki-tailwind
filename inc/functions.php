@@ -82,7 +82,7 @@ function _tpl_metaheaders() {
 		// Remove the button and turn it into an icon
 		foreach($html->find('link[rel="stylesheet"]') as $elm)
 			if(_tpl_has_prefix($elm->href, '/lib/exe/css.php'))
-				$elm->outertext = ''; // remove css.php stylesheet
+				// $elm->outertext = ''; // remove css.php stylesheet
 
 		$content = $html->save();
 		$html->clear();
