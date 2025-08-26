@@ -48,7 +48,7 @@
 
 		// tables
 		fieldset {
-			@apply mb-6 scroll-mt-20;
+			@apply !bg-transparent mb-6 scroll-mt-20;
 
 			// table header
 			legend {
@@ -56,7 +56,7 @@
 			}
 
 			div.table {
-				@apply w-full border-x box-b mb-0;
+				@apply w-full border-x box-b mb-0 !overflow-hidden;
 			}
 
 			table {
@@ -93,8 +93,16 @@
 		td.value {
 			@apply !w-[40%];
 
-			.input, input, textarea, select {
+			.input, .selectiondefault {
 				@apply !bg-transparent;
+			}
+
+			input:not([type="checkbox"]), textarea, select {
+				@apply !bg-transparent !w-auto;
+			}
+
+			input[type="checkbox"] {
+				@apply !bg-white !text-primary-600 dark:!bg-gray-800 checked:!bg-current dark:disabled:!bg-gray-900;
 			}
 		}
 
