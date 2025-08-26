@@ -19,6 +19,7 @@ The following plugins are supported:
   * [include](https://www.dokuwiki.org/plugin%3Ainclude)
   * [copy2clipboard](https://www.dokuwiki.org/plugin%3Acopy2clipboard)
   * [aichat](https://www.dokuwiki.org/plugin%3Aaichat)
+  * [caption](https://www.dokuwiki.org/plugin%3Acaption)
 
 I am open to merge requests for changes like for the support of additional plugins.
 
