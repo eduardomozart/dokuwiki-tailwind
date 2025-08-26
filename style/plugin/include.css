@@ -17,6 +17,6 @@
 }
 
 form.btn_incledit {
-	@apply btn-secondary;
+	/* @apply btn-secondary; */
 	margin-left: auto;
 }

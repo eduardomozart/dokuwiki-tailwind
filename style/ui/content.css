@@ -38,6 +38,12 @@
 		@apply font-semibold;
 	}
 
+	// Plugins Buttons
+	button:not([data-tooltip-target^="edit-button"]),
+	input[type="button"] {
+		@apply btn-secondary;
+	}
+
 	// Code
 	.code .ln-xtra {
 		@apply bg-yellow-900;

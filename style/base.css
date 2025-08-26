@@ -12,10 +12,14 @@
 	}
 }
 
+input[type="checkbox"] {
+	@apply input-checkbox;
+}
+
 .os-macos .\[\.os-macos_\&\]\:block {
 	display: block;
 }
 
 .not-\[\.os-macos_\&\]\:block:not(.os-macos *){
-	display:block;
+	display: block;
 }
