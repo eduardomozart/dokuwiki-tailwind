@@ -1,3 +1,5 @@
+/* DOKUWIKI:include_once js/plugin/copy2clipboard.js */
+
 if(JSINFO.ACT === 'edit' || JSINFO.ACT === 'preview') {
     /* DOKUWIKI:include_once js/toolbar.js */
     /* DOKUWIKI:include_once js/draft.js */

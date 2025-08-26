@@ -17,6 +17,7 @@ The following plugins are supported:
   * [imagebox](https://www.dokuwiki.org/plugin%3Aimagebox)
   * [acmenu](https://www.dokuwiki.org/plugin%3Aacmenu)
   * [include](https://www.dokuwiki.org/plugin%3Ainclude)
+  * [copy2clipboard](https://www.dokuwiki.org/plugin%3Acopy2clipboard)
 
 I am open to merge requests for changes like for the support of additional plugins.
 
