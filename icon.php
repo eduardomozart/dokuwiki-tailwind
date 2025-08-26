@@ -30,19 +30,19 @@ $width  = '1em';
 $height = '1em';
 $fill   = 'currentColor';
 
-if($_GET['width']) {
+if(isset($_GET['width'])) {
 	$param = hsc($_GET['width']);
 	$width  = $param;
 	$height = $param;
 }
 
-if($_GET['height']) {
+if(isset($_GET['height'])) {
 	$param = hsc($_GET['height']);
 	$width  = $param;
 	$height = $param;
 }
 
-if($_GET['color'])
+if(isset($_GET['color']))
 	$fill = parseColor(hsc($_GET['color']));
 
 $path    = sprintf('<path fill="%s" d="%s"/>', $fill, $icon);
