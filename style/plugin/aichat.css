@@ -9,13 +9,3 @@ aichat-button.float {
     --icon-size: 5em;
     z-index: 9998;
 }
-
-body:has(aichat-button) {
-	> header {
-		z-index: auto !important;
-	}
-
-	div:has(> #dw__toc) {
-		z-index: -1;
-	}
-}
