@@ -1,0 +1,11 @@
+/*
+ * Styles for https://www.dokuwiki.org/plugin:oauth
+ */
+
+.plugin_oauth {
+    @apply mt-8;
+
+    > div > a {
+        @apply btn-primary block w-full justify-center;
+    }
+}
