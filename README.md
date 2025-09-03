@@ -21,6 +21,7 @@ The following plugins are supported:
   * [aichat](https://www.dokuwiki.org/plugin%3Aaichat)
   * [caption](https://www.dokuwiki.org/plugin%3Acaption)
   * [oauth](https://www.dokuwiki.org/plugin%3Aoauth)
+  * [batchedit](https://www.dokuwiki.org/plugin%3Abatchedit)
 
 I am open to merge requests for changes like for the support of additional plugins.
 
