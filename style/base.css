@@ -12,10 +12,6 @@
 	}
 }
 
-input[type="checkbox"] {
-	@apply input-checkbox;
-}
-
 .os-macos .\[\.os-macos_\&\]\:block {
 	display: block;
 }
