@@ -22,6 +22,7 @@ The following plugins are supported:
   * [caption](https://www.dokuwiki.org/plugin%3Acaption)
   * [oauth](https://www.dokuwiki.org/plugin%3Aoauth)
   * [batchedit](https://www.dokuwiki.org/plugin%3Abatchedit)
+  * [bookcreator](https://www.dokuwiki.org/plugin%3Abookcreator)
 
 I am open to merge requests for changes like for the support of additional plugins.
 

@@ -1,0 +1,25 @@
+/*
+ * Styles for https://www.dokuwiki.org/plugin:bookcreator
+ */
+
+/* Add a Namespace */
+#bc__nspicker_result {
+	// files and directories
+	.type_d, .type_f, .type_u {
+		@apply py-2.5;
+	}
+	
+	div {
+		a {
+			@apply !bg-none !px-0 !inline;
+		}
+
+		span {
+			@apply !inline;
+		}
+	}
+
+	div.even {
+		@apply bg-transparent;
+	}
+}
