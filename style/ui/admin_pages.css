@@ -94,11 +94,11 @@
 			@apply !w-[40%];
 
 			.input, .selectiondefault {
-				@apply !bg-transparent;
+				@apply !bg-transparent max-w-full;
 			}
 
 			input:not([type="checkbox"]), textarea, select {
-				@apply !bg-transparent !w-auto;
+				@apply !bg-transparent;
 			}
 
 			input[type="checkbox"] {
