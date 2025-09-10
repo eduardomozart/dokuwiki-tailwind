@@ -110,20 +110,6 @@ footer .license a {
 	}
 }
 
-@media (min-width: 1024px) {
-	.notify, .success, .error {
-		margin-inline-start: inherit !important;
-		margin-inline-end: inherit !important;
-	}
-}
-
-@media (min-width: 768px) {
-	.notify, .success, .error {
-		margin-inline-start: inherit !important;
-		margin-inline-end: inherit !important;
-	}
-}
-
 .notify {
 	@apply text-sky-800 !bg-sky-50 dark:text-sky-400 dark:!bg-sky-800;
 }
