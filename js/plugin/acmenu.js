@@ -7,6 +7,9 @@ jQuery(window).on('load', function() {
         var $sidebarScrollTop = jQuery('.dokuwiki-sidebar').last().scrollTop(); // Current scroll position of the sidebar
         var $itemOffsetTop = $activeItem.position().top; // Position of the active item relative to the sidebar
 
-        $scroll.scrollTop($itemOffsetTop + $sidebarScrollTop);
+        // Scroll to active item only if it's not visible on sidebar
+        if ($itemOffsetTop > $scroll.height()) {
+            $scroll.scrollTop($itemOffsetTop + $sidebarScrollTop);
+        }
     }
 });

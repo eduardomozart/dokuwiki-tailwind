@@ -23,6 +23,7 @@ The following plugins are supported:
   * [oauth](https://www.dokuwiki.org/plugin%3Aoauth)
   * [batchedit](https://www.dokuwiki.org/plugin%3Abatchedit)
   * [bookcreator](https://www.dokuwiki.org/plugin%3Abookcreator)
+  * [tabbox](https://www.dokuwiki.org/plugin%3Atabbox)
 
 I am open to merge requests for changes like for the support of additional plugins.
 

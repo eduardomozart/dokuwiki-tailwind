@@ -1,6 +1,7 @@
 // Default styles applied for some elements
 .dw-action-admin,
 .dw-action-plugin,
+.dw-action-show,
 .ui-dialog-content {
 	.leftalign {
 		@apply text-left;
@@ -45,14 +46,6 @@
 	}
 	h5 {
 		@apply prose-h5;
-	}
-
-	p {
-		@apply prose-text;
-
-		&:first-child {
-			@apply mt-0;
-		}
 	}
 
 	a {
@@ -161,6 +154,18 @@
 
 		.content {
 			@apply inline;
+		}
+	}
+}
+
+.dw-action-admin,
+.dw-action-plugin,
+.ui-dialog-content {
+	p {
+		@apply prose-text;
+
+		&:first-child {
+			@apply mt-0;
 		}
 	}
 }

@@ -42,9 +42,14 @@
 		}
 	}
 
-	// current link
+	// Current Link
 	.curid, .curid a {
 		@apply font-semibold;
+	}
+
+	// Edit Button
+	button[data-tooltip-target^="edit-button"] {
+		@apply !bg-transparent ring-transparent;
 	}
 
 	// Plugins Buttons
@@ -70,29 +75,6 @@
 	}
 	.mediacenter {
 		@apply block mx-auto;
-	}
-
-	// Inputs
-	input {
-		&[type="text"], &[type="password"], &[type="email"], &[type="date"], &[type="url"] {
-			@apply input-text text-sm;
-		}
-
-		&[type="checkbox"] {
-			@apply input-checkbox;
-		}
-
-		&[type="file"] {
-			@apply input-file;
-		}
-	}
-
-	textarea {
-		@apply input-text;
-	}
-
-	select {
-		@apply input-select;
 	}
 }
 
