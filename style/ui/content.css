@@ -33,6 +33,15 @@
 .dw-action-show, .dw-action-preview .preview, .dokuwiki-sidebar {
 	@apply prose dark:prose-invert print:prose-print;
 
+	// Link
+	a {
+		@apply no-underline;
+
+		&:hover {
+			@apply underline;
+		}
+	}
+
 	// current link
 	.curid, .curid a {
 		@apply font-semibold;
@@ -61,6 +70,29 @@
 	}
 	.mediacenter {
 		@apply block mx-auto;
+	}
+
+	// Inputs
+	input {
+		&[type="text"], &[type="password"], &[type="email"], &[type="date"], &[type="url"] {
+			@apply input-text text-sm;
+		}
+
+		&[type="checkbox"] {
+			@apply input-checkbox;
+		}
+
+		&[type="file"] {
+			@apply input-file;
+		}
+	}
+
+	textarea {
+		@apply input-text;
+	}
+
+	select {
+		@apply input-select;
 	}
 }
 

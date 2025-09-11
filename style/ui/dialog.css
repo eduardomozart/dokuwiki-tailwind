@@ -11,8 +11,8 @@
 		// close button
 		.ui-dialog-titlebar-close {
 			@apply
-				block relative w-7 h-7 left-1.5 rounded-lg indent-[-9999px] bg-transparent
-				hover:bg-gray-50 dark:hover:bg-gray-800 border-0 m-0
+				block relative w-7 h-7 left-1.5 rounded-lg indent-[-9999px] !bg-none !bg-transparent
+				hover:!bg-gray-50 dark:hover:!bg-gray-800 border-0 m-0 ring-transparent shadow-none
 			;
 
 			.ui-button-icon {
@@ -24,8 +24,6 @@
 			}
 
 			&:hover {
-				@apply bg-none;
-
 				.ui-button-icon {
 					@apply
 						bg-[url('/lib/tpl/tailwind/icon.php?icon=close&color=gray-900')]

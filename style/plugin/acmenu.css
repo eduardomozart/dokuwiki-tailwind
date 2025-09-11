@@ -7,6 +7,10 @@ body > div.w-full.lg\:flex > aside > div > div > div:nth-child(4) {
 }
 
 .dokuwiki-sidebar > div.acmenu {
+	a:hover {
+		text-decoration: none;
+	}
+
 	> ul.sidebar-nav-list > li.open {
 		padding: 0 !important;
 		
