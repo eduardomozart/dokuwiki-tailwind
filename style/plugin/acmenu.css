@@ -6,11 +6,18 @@ body > div.w-full.lg\:flex > aside > div > div > div:nth-child(4) {
 	display: block;
 }
 
-.dokuwiki-sidebar > div.acmenu {
-	a:hover {
-		text-decoration: none;
+div.acmenu {
+	span.ns_nolink {
+		color: var(--tw-prose-links);
 	}
 
+	a:hover,
+	span.ns_nolink:hover {
+		text-decoration: none;
+	}
+}
+
+.dokuwiki-sidebar > div.acmenu {
 	> ul.sidebar-nav-list > li.open {
 		padding: 0 !important;
 		
