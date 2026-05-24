@@ -8,7 +8,7 @@ body > div.w-full.lg\:flex > aside > div > div > div:nth-child(4) {
 
 div.acmenu {
 	span.ns_nolink {
-		color: var(--tw-prose-links);
+		@apply text-gray-600 dark:text-gray-300;
 	}
 
 	a:hover,
