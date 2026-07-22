@@ -3,6 +3,7 @@
 /* DOKUWIKI:include_once js/plugin/aichat.js */
 /* DOKUWIKI:include_once js/plugin/acmenu.js */
 /* DOKUWIKI:include_once js/plugin/tabbox.js */
+/* DOKUWIKI:include_once js/code-copy-btn.js */
 
 if(JSINFO.ACT === 'edit' || JSINFO.ACT === 'preview') {
     /* DOKUWIKI:include_once js/toolbar.js */
