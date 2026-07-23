@@ -1,5 +1,35 @@
 // Specific styles
 .dw-action-admin {
+	// Highlight inputs in default value rows
+	form tr.default td.value input,
+	form tr.default td.value input:checked,
+	form tr.default td.value input[type="checkbox"]:checked,
+	form td.default.value input,
+	form td.default.value input:checked,
+	form td.default.value input[type="checkbox"]:checked,
+	form td.default .input input,
+	form td.default .input input:checked,
+	form td.default .input input[type="checkbox"]:checked,
+	form tr.default td.value textarea,
+	form td.default.value textarea,
+	form td.default .input textarea,
+	form tr.default td.value select,
+	form td.default.value select,
+	form td.default .input select {
+		@apply !bg-primary-50 dark:!bg-primary-950 !border-gray-300 dark:!border-gray-600;
+	}
+
+	tr.default td.value input[type="checkbox"]:checked,
+	td.default.value input[type="checkbox"]:checked,
+	td.default .input input[type="checkbox"]:checked {
+		background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231d4ed8' viewBox='0 0 16 16'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E") !important;
+	}
+
+	.dark tr.default td.value input[type="checkbox"]:checked,
+	.dark td.default.value input[type="checkbox"]:checked,
+	.dark td.default .input input[type="checkbox"]:checked {
+		background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2360a5fa' viewBox='0 0 16 16'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E") !important;
+	}
 
 	// User manager
 	&.dw-page-usermanager {
@@ -106,27 +136,7 @@
 			}
 		}
 
-		// Highlight inputs in default value rows
-		tr.default td.value input,
-		tr.default td.value input:checked,
-		td.default.value input,
-		td.default.value input:checked,
-		td.default .input input,
-		td.default .input input:checked,
-		tr.default td.value textarea,
-		td.default.value textarea,
-		td.default .input textarea,
-		tr.default td.value select,
-		td.default.value select,
-		td.default .input select {
-			@apply !bg-blue-100 dark:!bg-blue-900/40 !border-gray-300 dark:!border-gray-600;
-		}
 
-		tr.default td.value input[type="checkbox"]:checked,
-		td.default.value input[type="checkbox"]:checked,
-		td.default .input input[type="checkbox"]:checked {
-			background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232563eb' viewBox='0 0 16 16'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E") !important;
-		}
 		
 		button[type="submit"] {
 			@apply mr-2;

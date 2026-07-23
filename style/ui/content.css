@@ -165,13 +165,14 @@
 }
 
 // Global Plugins Buttons and Form Elements Fallback
-button:not([data-tooltip-target^="edit-button"]):not(.btn-link):not(#user-menu-button):not([data-dropdown-toggle]):not([data-modal-target]),
+button:not([data-tooltip-target^="edit-button"]):not(.btn-link):not(#user-menu-button):not([data-dropdown-toggle]):not([data-modal-target]):not([type="submit"]):not(.toolbutton):not(.pickerbutton):not(.ui-button),
 input[type="button"],
 input[type="reset"] {
 	@apply btn-secondary;
 }
 
-input[type="submit"] {
+input[type="submit"],
+button[type="submit"]:not([name="do[preview]"]):not([name="do[cancel]"]) {
 	@apply btn-primary;
 }
 
