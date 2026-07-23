@@ -74,7 +74,7 @@
 			@apply absolute opacity-0 transition-opacity duration-200;
 			@apply w-8 h-8 p-0 m-0 rounded cursor-pointer overflow-hidden;
 			top: 0.5rem !important;
-			right: 0.75rem !important;
+			right: 0.5rem !important;
 			appearance: none;
 			-webkit-appearance: none;
 			border: none !important;
@@ -108,10 +108,15 @@
 	}
 
 	/* Download snippet link */
+	dl.file dt {
+		@apply relative;
+	}
+
 	dl.file dt a[href*="export_code"] {
 		@apply inline-flex items-center justify-center;
 		@apply w-8 h-8 rounded transition-colors duration-200;
-		flex-shrink: 0;
+		position: absolute !important;
+		right: 0.5rem !important;
 
 		&:hover {
 			background-color: rgba(128, 128, 128, 0.1) !important;
