@@ -13,3 +13,7 @@ if(JSINFO.ACT === 'edit' || JSINFO.ACT === 'preview') {
 if(JSINFO.ACT === 'media' || JSINFO.ACT === 'show') { // media manager or media popup
     /* DOKUWIKI:include_once js/media.js */
 }
+
+if(JSINFO.ACT === 'admin') {
+    /* DOKUWIKI:include_once js/admin-default-toggle.js */
+}

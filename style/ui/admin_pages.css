@@ -102,10 +102,32 @@
 			}
 
 			input[type="checkbox"] {
-				@apply !bg-white !text-primary-600 dark:!bg-gray-800 checked:!bg-current dark:disabled:!bg-gray-900;
+				@apply input-checkbox !border-gray-300 dark:!border-gray-600;
 			}
 		}
 
+		// Highlight inputs in default value rows
+		tr.default td.value input,
+		tr.default td.value input:checked,
+		td.default.value input,
+		td.default.value input:checked,
+		td.default .input input,
+		td.default .input input:checked,
+		tr.default td.value textarea,
+		td.default.value textarea,
+		td.default .input textarea,
+		tr.default td.value select,
+		td.default.value select,
+		td.default .input select {
+			@apply !bg-blue-100 dark:!bg-blue-900/40 !border-gray-300 dark:!border-gray-600;
+		}
+
+		tr.default td.value input[type="checkbox"]:checked,
+		td.default.value input[type="checkbox"]:checked,
+		td.default .input input[type="checkbox"]:checked {
+			background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232563eb' viewBox='0 0 16 16'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E") !important;
+		}
+		
 		button[type="submit"] {
 			@apply mr-2;
 		}

@@ -32,7 +32,7 @@
 			dark:border-gray-700 dark:bg-gray-800 dark:ring-offset-gray-800 dark:focus:ring-primary-600
 
 			// checked
-			checked:bg-current checked:border-transparent
+			checked:!bg-primary-600 dark:checked:!bg-primary-600 checked:!border-transparent
 
 			// disabled
 			disabled:cursor-default
