@@ -6,7 +6,7 @@
     @apply mt-8;
 
     > div > a {
-        @apply btn-primary block w-full justify-center;
+        @apply btn-primary block w-full justify-center !border-none;
     }
 }
 
